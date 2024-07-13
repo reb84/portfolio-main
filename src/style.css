@@ -26,6 +26,32 @@ h4 {
   font-family: "Playfair Display", serif;
 }
 
+/* NAVIGATION */
+.navbar {
+  background: var(--branding-color);
+  padding: 10px;
+}
+.navbar-toggler {
+  font-size: 15px;
+  margin-left: auto;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  color: var(--secondary-color);
+}
+
+.nav-link:hover {
+  color: var(--accent-color);
+}
+.active {
+  font-style: italic;
+  font-weight: 600;
+}
+
 /* HOMEPAGE */
 
 header {
@@ -35,7 +61,7 @@ header {
 }
 
 .hero {
-  padding: 180px;
+  padding: 220px;
 }
 
 .main-about {
@@ -63,6 +89,7 @@ header {
 .main-two {
   background-color: var(--primary-color);
   color: var(--secondary-color);
+  padding: 80px;
 }
 
 .main-previews {
@@ -84,6 +111,7 @@ header {
   margin-top: 40px;
   text-align: center;
 }
+
 /* BUTTONS */
 
 .primary-button {
