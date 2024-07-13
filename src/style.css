@@ -45,6 +45,17 @@ header {
   letter-spacing: 1px;
 }
 
+.main-about a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-style: italic;
+}
+
+.main-about a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
 .name-color {
   color: var(--accent-color);
 }
