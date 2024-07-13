@@ -64,19 +64,14 @@ header {
   padding: 220px;
 }
 
-.main-about {
-  justify-content: center;
-  padding: 80px;
-  color: var(--primary-color);
-  letter-spacing: 1px;
-}
-
+.footer a,
 .main-about a {
   color: var(--accent-color);
   text-decoration: none;
   font-style: italic;
 }
 
+.footer a:hover,
 .main-about a:hover {
   text-decoration: none;
   opacity: 0.7;
@@ -86,30 +81,31 @@ header {
   color: var(--accent-color);
 }
 
+.main-one {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 80px;
+  justify-content: center;
+  letter-spacing: 1px;
+}
 .main-two {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   padding: 80px;
+  justify-content: center;
+  letter-spacing: 1px;
 }
 
-.main-previews {
-  padding: 80px;
-  color: var(--secondary-color);
-}
-.main-previews h2 {
-  margin-bottom: 30px;
-}
-.main-previews img {
-  border-radius: 30px;
-  transition: 0.3s;
-}
-.main-previews img:hover {
-  opacity: 0.5;
-}
-
-.preview-button {
-  margin-top: 40px;
+.skills {
+  padding: 30px;
   text-align: center;
+  font-size: 60px;
+  opacity: 0.8;
+}
+
+.skills-button {
+  text-align: center;
+  margin-top: 30px;
 }
 
 /* BUTTONS */
@@ -133,6 +129,7 @@ header {
 footer {
   padding: 50px 0;
   color: var(--primary-color);
+  text-align: center;
 }
 
 .social-links a {
