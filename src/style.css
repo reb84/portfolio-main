@@ -38,6 +38,17 @@ header {
   padding: 180px;
 }
 
+.main-about {
+  justify-content: center;
+  padding: 80px;
+  color: var(--primary-color);
+  letter-spacing: 1px;
+}
+
+.name-color {
+  color: var(--accent-color);
+}
+
 .main-two {
   background-color: var(--primary-color);
   color: var(--secondary-color);
