@@ -63,6 +63,7 @@ header {
 
 .hero {
   padding: 220px;
+  min-height: 820px;
 }
 
 .footer a,
@@ -97,10 +98,9 @@ header {
   letter-spacing: 1px;
 }
 
-.skills {
-  padding: 30px;
+.skills i {
   text-align: center;
-  font-size: 60px;
+  font-size: 56px;
   opacity: 0.8;
 }
 
@@ -121,6 +121,7 @@ header {
   text-align: center;
 }
 
+.hero h1,
 .contacts h1 {
   font-size: 58px;
 }
@@ -182,4 +183,54 @@ footer {
 
 .social-links a:hover {
   color: var(--accent-color);
+}
+
+@media screen and (max-width: 659px) {
+  .first-main,
+  .second-main {
+    padding: 50px;
+    text-align: justify;
+    letter-spacing: 1px;
+  }
+
+  .hero {
+    padding: 160px;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .contacts h1 {
+    font-size: 34px;
+  }
+
+  .contacts h3 {
+    font-size: 24px;
+  }
+
+  .contacts h4 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+  .mobile-link {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .skills i {
+    font-size: 36px;
+  }
 }
