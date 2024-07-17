@@ -28,7 +28,7 @@ h4 {
 
 /* NAVIGATION */
 .navbar {
-  background: var(--branding-color);
+  background: var(--primary-color);
   padding: 10px;
 }
 .navbar-toggler {
@@ -50,6 +50,7 @@ h4 {
 .active {
   font-style: italic;
   font-weight: 600;
+  text-decoration: underline;
 }
 
 /* HOMEPAGE */
@@ -81,14 +82,14 @@ header {
   color: var(--accent-color);
 }
 
-.main-one {
+.first-main {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   padding: 80px;
   justify-content: center;
   letter-spacing: 1px;
 }
-.main-two {
+.second-main {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   padding: 80px;
@@ -105,13 +106,47 @@ header {
 
 .skills-button {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 /* PROJECT PAGE */
 
 .projects img {
   border-radius: 30px;
+}
+
+/* CONTACT PAGE */
+
+.contacts {
+  text-align: center;
+}
+
+.contacts h1 {
+  font-size: 58px;
+}
+
+.contacts h3 {
+  font-size: 32px;
+}
+
+.contacts h4 {
+  font-size: 26px;
+}
+
+.contacts i {
+  padding-bottom: 8px;
+  color: var(--secondary-color);
+  opacity: 0.8;
+}
+
+.contacts a {
+  padding-bottom: 8px;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.contacts a:hover {
+  color: var(--accent-color);
 }
 
 /* BUTTONS */
